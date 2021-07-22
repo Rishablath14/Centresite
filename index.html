@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neelam Blood Collection Center</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>@media screen and (max-width: 650px) {.rowed .column .card .cardimg{width:20%}}</style>
+</head>
+<body>
+  <div class="top-wise">
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="https://goo.gl/maps/tcQWtLUE1jtkgCBZ9">NBCC</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li>
+          <a href="#service" class="desktop-item">Services</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Services</label>
+          <ul class="drop-menu">
+            <li><a href="#service">Home Visit</a></li>
+            <li><a href="#service">Blood Testing</a></li>
+            <li><a href="#covid">Covid Testing</a></li>
+            <li><a href="#covid">Online Report</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#Tests" class="desktop-item">Tests</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Tests</label>
+          <div class="mega-box">
+            <header style="text-align: center;color:whitesmoke;font-size: 2em;font-weight: 900;border: 1px solid black;background: linear-gradient(rgb(48, 43, 43),black) ;border-radius: 4px;letter-spacing: 1px;word-spacing: 2px;">Over 4500+ Tests are taken here</header>
+            <div class="content">
+              <div class="row">
+                <img src="bloodtest.jpg" alt="">
+              </div>
+              <div class="row">
+                <header>Routine Tests</header>
+                <ul class="mega-links">
+                  <li><a>CBC , ESR</a></li>
+                  <li><a>Vitamin B12 , D3</a></li>
+                  <li><a>Sugar , Thyroid </a></li>
+                  <li><a>Urine , Calcium</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header> PKG Tests</header>
+                <ul class="mega-links">
+                  <li><a>LFT , RFT</a></li>
+                  <li><a>Lipid Profile</a></li>
+                  <li><a>Dengue Profile</a></li>
+                  <li><a>FSH , Torch-8</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Covid Tests</header>
+                <ul class="mega-links">
+                  <li><a>RT PCR</a></li>
+                  <li><a>Covid Profile</a></li>
+                  <li><a>D-Dimer , CRP</a></li>
+                  <li><a>IL6 , LDH</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#contactus">Contact Us</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+  </div>
+  <div class="body-text">
+    <a href="https://goo.gl/maps/tcQWtLUE1jtkgCBZ9">Metropolis APSC DevendraNagar</a>
+  </div>
+  <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell"><img src="IMG_20210715_161128.jpg" alt=""></div>
+  <div class="carousel-cell"><img src="IMG_20210715_153533.jpg" alt=""></div>
+  <div class="carousel-cell"><img class="mypic" src="sampletaking.jpg" alt=""></div>
+  <div class="carousel-cell"><img src="IMG_20210715_155053.jpg" alt=""></div>
+  <div class="carousel-cell"><img src="IMG_20210715_192538.jpg" alt=""></div>
+</div>
+<div class="top-service" style="text-align: center">
+<h1 id="service">Services</h1>
+</div>
+<div class="service">
+  <div class="container">
+    <div class="box">
+     <img src="homecollection.png" alt="">
+      <h4>Home Visit</h4>
+      <p style="display: inline-block;"> In this pandemic, it can be difficult for most people to step out of their homes for blood check-ups and for others, it can be risky. At Metropolis, we understand that health cannot take a backseat even if there’s a COVID-19 outbreak going on. Our medically equipped and trained crew members can offer dependable blood collection at the patient’s convenience at his home or office. Good inner health in the safety of your home. Book a home collection service & get tested.<br>'Test assured, Rest assured'</p><a href="#service"><button style="font-weight: 700;text-decoration: none;font-weight: 700;animation: wave 1s ease-in-out infinite;cursor: pointer;margin-top: 5px;width: 100%;">Book Now</button></a>
+    </div>
+    <div class="box">
+      <img class="bloodtested" src="bloodtested.png" alt="">
+      <h4 style="margin-bottom: 5px;">Blood Testing</h4>
+      <p>Blood tests show whether the levels of different substances in your blood fall within a normal range.Blood tests can help you and your doctor learn more about your health. Metropolis offers safe and Hygienic service for all your blood test needs. Today we conduct over 30 million tests annually with accuracy each year. Our repertoire extends over 4500 tests and over 100 different technologies. Quick and Accurate reports with 3 Level validations.</p>
+    </div>
+  </div>
+</div>
+<div class="service">
+  <div class="container">
+    <div class="box" id="covid">
+      <img style="width: 15%;"src="covidicon.png" alt="">
+      <h4>Covid Testing</h4>
+      <p>Metropolis has been approved by the Government of India to test and collect samples of COVID-19 under ICMR Approved COVID-19 testing registration no. Metro 001(Mumbai), MC-2518 (Chennai), MHLNDD (Delhi). Home Sample Collection is available for COVID-19 test, which is a swab based corona test. We offer safe and hygienic sample collection at home by our trained technicians. Get accurate and quick reports done in 24-48 hours*.</p>
+    </div>
+    <div class="box">
+      <img style="width: 30%;margin-bottom: 3px;"src="computer.png" alt="">
+      <h4 style="margin-bottom: 2px;">Online Report</h4>
+      <p>It is easy and convenient for patients to check their lab test results online with just a couple of clicks. Now, Get your test report in Whatsapp, Mail or SMS according to your comfort. Patients who are sick or away from the healthcare centre will no longer have to come to collect their reports, they can now access the report online with ease of navigation and quicker accessibility to information.</p>
+    </div>
+  </div>
+</div>
+<div id="Tests"style="text-align: center">
+  <h1 style="padding: 0 20px;" class="typetest">Tests</h1>
+  </div>
+<div style="text-align: center;margin-top: 15px;"><h2 style="font-weight: 800;font-size: 2em;">Over 4500+ Tests are taken Here </h2>
+  <p class="testnamebro">Which includes Blood Tests for Heart, Diabetes, Liver, Kidney, Bone, Thyroid and many more.</p>
+<h3 style="color:rgba(194, 6, 6, 0.575); font-size: 1.8em;margin-top: 15px; "> If you know the test name then </h3><a href="#contactus" style="font-size: 1.6em;"><button class="booknow">Book Now</button></a></div>  
+ 
+<div class="service">
+  <div class="container">
+    <div class="box" style="background-color: rgba(0, 0, 0, 0.315);margin-top: -50px;">
+      <img class="testpackageimg" style="width: 20%;" src="https://metropolisindia.com/newdata/images/side-bar-logo.jpg" alt="Truhealth ">
+      <h4 style="font-size: 35px;color: rgb(17, 240, 17);">TruHealth Packages Available</h4><span style="font-weight: 800;font-style: italic;color: azure;letter-spacing: 2px;word-spacing: 4px;">For all age groups</span>
+    </div>
+  </div>
+</div> 
+<div class="about-section" id="About">
+  <h1 style="background-color: rgba(255, 255, 255, 0.89)smoke;margin-bottom: 10px;">About us</h1>
+  <p>This is Metropolis Blood Collection Centre APSC Devendra Nagar. All types of Blood test and Covid-19 test are taken here with full precautions.</p>
+  <p>We believe in Customer satisfaction and provide best facility in Home visit, Sample taking and reporting.</p>
+  <p> Contact us and get check yourself today.</p>
+</div>
+<div class="rowed">
+  <div class="column">
+    <div class="card">
+      <img class="cardimg" src="1381651577062 - Copy.jpg" alt="Deepak Lath">
+      <div class="containered">
+        <h2>Deepak Lath</h2>
+        <p class="title">Owner</p>
+        <a href="mailto:mail2dipaklath@gmail.com"><button style="color: rgb(255, 255, 253);background-color: rgba(128, 255, 0, 0.178);padding: 0px 5px;font-weight: 600;">mail2dipaklath@gmail.com</button></a>
+        <a href="tel:09329102468"><button class="button">Contact</button></a>
+      </div>
+    </div>
+  </div> 
+  <section id="contactus" class="contact">
+<div class="contant">
+  <h2>Contact Us</h2>
+  <p>Book your slot now and get tested to assure your inner health safety.</p>
+</div>
+<div class="containor">
+<div class="contactInfo">
+<div class="bag">
+  <div class="icen"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+    <div class="text">
+      <h3>Address</h3>
+      <p>Sector - 1, C - 164,<br>Near Police Thana,<br>Devendra Nagar, Raipur-492001</p>
+    </div>
+  </div>
+  <div class="bag">
+    <div class="icen"><i class="fa fa-phone" aria-hidden="true"></i></div>
+      <div class="text">
+        <h3>Phone</h3>
+        <p>93291-02468,<br> 81093-22468</p>
+      </div>
+    </div>
+    <div class="bag">
+      <div class="icen"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3>Email</h3>
+          <p>neelamlath28@gmail.com</p>
+        </div>
+      </div>
+</div>
+<div class="contactform">
+  <form method="POST" action="https://formsubmit.co/neelamlath28@gmail.com">
+    <input type="hidden" name="_captcha" value="false">
+    <h2>Send Message</h2>
+    <div class="inputBox">
+      <input type="text" name="name" required>
+      <span>Full Name</span>
+    </div>
+    <div class="inputBox">
+      <input type="email" name="email" required>
+      <span>Email</span>
+      <input type="hidden" name="_next" value="https://yourdomain.co/thankyou/thanks.html">
+      <input type="hidden" name="_subject" value="New Patient Query Registered">
+    </div>
+    <div class="inputBox">
+      <input type="number" name="number" required>
+      <span>Phone No.</span>
+    </div>
+    <div class="inputBox">
+      <textarea required></textarea>
+      <span>Type Test names</span>
+    </div>
+    <div class="inputBox">
+      <input type="submit" name="message" value="send">
+    </div>
+  </form>
+</div>
+</div>
+</div>
+  </section>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body> 
+</html>
