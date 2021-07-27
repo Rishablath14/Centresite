@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{background:linear-gradient(50deg,rgb(111, 240, 107),rgba(0, 0, 0, 0.411),rgb(111, 240, 107));width: 100%;}
+body{background:linear-gradient(50deg,rgba(228, 17, 17, 0.685),rgba(38, 207, 16, 0.692),rgba(237, 252, 26, 0.829));width: 100%;}
 nav{
   position: fixed;
   z-index: 99;
