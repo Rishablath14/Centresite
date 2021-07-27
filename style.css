@@ -287,13 +287,14 @@ opacity: 0.2;transition: ease-in-out .5s;}
 .containor .contactInfo .bag .icen{min-width: 60px;height: 60px;background: #fff;display: flex;justify-content: center;align-items: center;border-radius: 50%;font-size: 22px;}
 .containor .contactInfo .bag .text{display: flex;margin-left: 20px;font-size: 16px;color: #fff;flex-direction: column;font-weight: 300;}
 .containor .contactInfo .bag .text h3{font-weight: 500;color: #d41900;}
-.contactform{width: 40%;padding: 10px 10px 0px 10px;background:#fff;}
+.contactform{width: 40%;padding: 10px 10px 0px 10px;background:rgba(255, 5, 5, 0.11);}
 .contactform h2{font-size: 30px;color: rgb(126, 5, 5);font-weight: 500;}
 .contactform .inputBox{position: relative;width: 100%;margin-top: 10px;}
-.contactform .inputBox input,.contactform .inputBox textarea{width: 100%;padding: 5px 0;font-size: 16px;margin: 10px 0;border: none;border-bottom: 2px solid #333;outline: none;resize: none;}
-.contactform .inputBox span{position: absolute;left: 0;padding: 5px 0;font-size: 16px;margin: 10px 0;pointer-events: none;transition: 0.5s;color: #666;}
-.contactform .inputBox input:focus ~ span,.contactform .inputBox input:valid ~ span,.contactform .inputBox textarea:focus ~ span,.contactform .inputBox textarea:valid ~ span{color: #1fa836;font-size: 12px;transform: translateY(-20px);}
-.contactform .inputBox input[type="submit"]{width: 100px;background: #00490a;color: #fff;border: none;cursor:pointer;padding: 10px;font-size: 18px;font-weight: 600;letter-spacing: 1px;}
+.contactform .inputBox input,.contactform .inputBox textarea{width: 100%;padding: 5px 0;font-size: 16px;margin: 10px 0;border: none;border-bottom: 2px solid #333;outline: none;resize: none;background-color: rgba(255, 255, 255, 0);}
+.contactform .inputBox span{position: absolute;left: 0;padding: 5px 0;font-size: 16px;margin: 10px 0;pointer-events: none;transition: 0.5s;color: rgb(21, 107, 0);}
+.contactform .inputBox input:focus ~ span,.contactform .inputBox input:valid ~ span,.contactform .inputBox textarea:focus ~ span,.contactform .inputBox textarea:valid ~ span{color: #960000;font-size: 12px;transform: translateY(-20px);}
+.contactform .inputBox input[type="submit"]{width: 100px;background:  #00490a7e;color: #fff;border: none;cursor:pointer;padding: 10px;font-size: 18px;font-weight: 600;letter-spacing: 1px;}
+.contactform .inputBox input[type="submit"]:hover{background-color: #4ef33870;color: #000;}
 @media (max-width:991px){
   .contact{padding: 50px;}
   .containor{flex-direction: column;}
