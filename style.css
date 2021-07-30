@@ -163,9 +163,9 @@ nav input{
   .flickity-enabled {
     position: relative;
     top: 180px;
-    height: 55vh;
+    height: 65vh;
 }  
-.carousel-cell img{width: 100%;height: 55vh;}
+.carousel-cell img{width: 100%;height: 65vh;}
  #service{margin-top: 240px;display: inline-block;color: white;border-radius: 20px;background-color: rgba(3, 80, 0, 0.548);border-radius: 70px;font-size: 3.5em;padding: 0 5px;;animation-name: move;animation-duration: 8s;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
  #service:hover{background-color:rgba(45, 231, 45, 0.767) ;color: #242526;}
 .service{display: flex;justify-content: center;align-items: center;min-height: 50vh;}
