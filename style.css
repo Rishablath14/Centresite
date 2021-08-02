@@ -278,7 +278,7 @@ nav input{
   display: none;
 }
 .body-text{
-  position: absolute;
+  position: relative;
   top: 18%;
   left:50%;
   transform:translate(50%,50%);
@@ -287,9 +287,9 @@ nav input{
   box-shadow: 10px 10px 10px rgba(204, 211, 82, 0.24);
   background: rgba(202, 255, 95, 0.247);
   border-radius:5px; 
-  z-index: 6;
+  z-index: 1;
 }
-.body-text a{font-weight: 900;letter-spacing: 1.2px;font-size: 2em;text-decoration: none;color:rgba(19, 75, 2, 0.767);z-index: 6;}
+.body-text a{font-weight: 900;letter-spacing: 1.2px;font-size: 2em;text-decoration: none;color:rgba(19, 75, 2, 0.767);z-index: 1;}
 .body-text a:hover{color: rgba(19, 75, 2, 0.396);cursor:pointer;}
 .carousel {
   background: #EEE;
