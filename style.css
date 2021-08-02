@@ -164,7 +164,7 @@ nav .wrapper {
 }
 .wrapper .logo a{
   color: #a30000;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 800;
   text-decoration: none;
   letter-spacing: 1px;
@@ -278,16 +278,16 @@ nav input{
   display: none;
 }
 .body-text{
-  position: relative;
-  top: 22vh;
+  position: absolute;
+  top: 20%;
   width: 100%;
   text-align: center;
   box-shadow: 10px 10px 10px rgba(204, 211, 82, 0.24);
   background: rgba(202, 255, 95, 0.247);
   border-radius:5px; 
-  z-index: 1;
+  z-index: 6;
 }
-.body-text a{font-weight: 900;letter-spacing: 1.2px;font-size: 2em;text-decoration: none;color:rgba(19, 75, 2, 0.767);z-index: 1;}
+.body-text a{font-weight: 900;letter-spacing: 1.2px;font-size: 2em;text-decoration: none;color:rgba(19, 75, 2, 0.767);z-index: 6;}
 .body-text a:hover{color: rgba(19, 75, 2, 0.396);cursor:pointer;}
 .carousel {
   background: #EEE;
