@@ -280,6 +280,8 @@ nav input{
 .body-text{
   position: absolute;
   top: 18%;
+  left:50%;
+  transform:translate(50%,50%);
   width: 100%;
   text-align: center;
   box-shadow: 10px 10px 10px rgba(204, 211, 82, 0.24);
