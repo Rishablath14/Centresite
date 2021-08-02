@@ -279,7 +279,7 @@ nav input{
 }
 .body-text{
   position: absolute;
-  top: 20%;
+  top: 18%;
   width: 100%;
   text-align: center;
   box-shadow: 10px 10px 10px rgba(204, 211, 82, 0.24);
@@ -291,7 +291,7 @@ nav input{
 .body-text a:hover{color: rgba(19, 75, 2, 0.396);cursor:pointer;}
 .carousel {
   background: #EEE;
-  margin-bottom:20px;
+  margin-bottom:25px;
 }
 
 .carousel-cell {
