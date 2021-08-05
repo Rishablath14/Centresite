@@ -157,6 +157,44 @@
     </div>
   </div>
 </div> 
+    <div id="packages">
+<div class="dibba">
+  <div class="cdibba">
+    <span></span>
+    <div class="imgbx"><img src="basicpack.jpg" alt=""></div>
+    <div class="likhit">
+      <div>
+        <h3 style="color: rgb(81, 255, 0);padding-bottom: 10px;">Test Includes</h3>
+        <p><a>Thyroid:</a> FT3 FT4 TSH<br><a>Diabetes:</a> Blood Sugar Fasting<br><a>General test:</a> CBC, ESR<br><a>Liver:</a> SGPT, SGOT, Bilirubin Total, Proteins Total, Alkaline Phosphatase, Gamma Gt<br><a>Kidney:</a> Urine-RM, Creatinine, Uric Acid, Urea Nitrogen test<br><a>Heart:</a> Cholestrol-Total, HDL-Non HDL Test, LDL-VLDL Test, Triglycerides Test<br><a>Bone:</a> Calcium</p>
+        <a href="#contactus"><button style="color: red;background-color: black,">Book Now</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="cdibba">
+    <span></span>
+    <div class="imgbx"><img src="womenpack.jpg" alt=""></div>
+    <div class="likhit">
+      <div>
+        <h3 style="color: rgb(11, 255, 2);padding-bottom: 10px;">Test Includes</h3>
+        <p><a>Thyroid:</a> T3 T4 TSH<br><a>Diabetes:</a> HBA1C , Sugar Fasting<br><a>General Test:</a> CBC, ESR<br><a>Liver:</a> SGPT, SGOT, Bilirubin Total, Proteins Total<br><a>Kidney:</a> Creatinine, Uric Acid<br><a>Heart:</a> Cholestrol-Total, HDL-Non HDL Test, LDL-VLDL Test, Triglycerides Test<br><a>Bone:</a> Calcium, Vitamin D3, Phosporus<br><a>Hormones:</a> FSH Test</p>
+        <a href="#contactus"><button style="color: red;background-color: black,">Book Now</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="cdibba">
+    <span></span>
+    <div class="imgbx"><img src="comprepack.jpg" alt=""></div>
+    <div class="likhit">
+      <div>
+        <h3 style="color: rgb(0, 255, 21);padding-bottom: 10px;">Test includes</h3>
+        <p><a>Thyroid:</a> FT3 FT4 TSH<br><a>Diabetes:</a> HBA1C , Sugar Fasting<br><a>General Test:</a> CBC, Vitamin B12, Iron Studies, ESR<br><a>Liver:</a> SGPT, SGOT, Bilirubin Total, Proteins Total, Alkaline Phosphatase, Gamma Gt<br><a>Kidney:</a> Urine-RM, Creatinine, BUN, Uric Acid, Electrolyte serum<br><a>Heart:</a> Cholestrol-Total, HDL-Non HDL Test, LDL-VLDL Test, Triglycerides Test<br><a>Bone:</a> Calcium, Vitamin D3
+        </p>
+        <a href="#contactus"><button style="color: red;background-color: black,">Book Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
 <div class="about-section" id="About">
   <h1 style="background-color: rgba(255, 255, 255, 0.89)smoke;margin-bottom: 10px;">About us</h1>
   <p>This is Metropolis Blood Collection Centre APSC Devendra Nagar. All types of Blood test and Covid-19 test are taken here with full precautions.</p>
@@ -235,6 +273,16 @@
 </div>
   </section>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>$(document).ready(function(){
+    $('.cdibba').on('mouseenter',function(e){
+      x=e.pageX-$(this).offset().left,
+      y=e.pageY-$(this).offset().top;
+      $(this).find('span').css({top:y,left:x})})
+      $('.cdibba').on('mouseenter',function(e){
+      x=e.pageX-$(this).offset().left,
+      y=e.pageY-$(this).offset().top;
+      $(this).find('span').css({top:y,left:x})})})</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
     setTimeout(function(){
