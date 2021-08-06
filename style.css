@@ -146,7 +146,7 @@ min-height: 100vh;
   animation-delay:0s;
 }
 nav{
-  position: fixed;
+  position: absolute;
   z-index: 99;
   width: 100%;
   background: #242526;
@@ -351,7 +351,7 @@ width:320px;
 height: 420px;
 margin:15px;
 overflow: hidden;
-border: 10px solid rgba(0, 0, 0, 0.61);
+border: 10px solid rgba(0, 0, 0, 0.61);box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 }
 #packages .dibba .cdibba span{display: block;width: 0;height: 0;position:absolute;transform: translate(-50%,-50%);border-radius: 50%;opacity: 0.95;background:#022b00d2;transition: width 0.5s,height 0.5s;z-index: 1;}
 #packages .dibba .cdibba:hover span{width: 1000px;height: 1000px;}
