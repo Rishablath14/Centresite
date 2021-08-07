@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{background:linear-gradient(50deg,rgba(228, 17, 17, 0.685),rgba(38, 207, 16, 0.692),rgba(237, 252, 26, 0.829));width: 100%;}
+body{background:linear-gradient(50deg,rgba(12, 25, 216, 0.788),rgba(38, 207, 16, 0.692),rgba(237, 252, 26, 0.829));width: 100%;}
 .loaderbg{position: fixed;
 z-index: 9999999999;
 background: linear-gradient(50deg,rgba(228, 17, 17, 0.685),rgba(38, 207, 16, 0.692));
@@ -392,7 +392,7 @@ border: 10px solid rgba(0, 0, 0, 0.61);box-shadow: 20px 20px 50px rgba(0, 0, 0, 
   display: inline-block;
   padding: 5px;
   color: white;
-  background-color: #000;
+  background-color: rgba(0, 175, 23, 0.671);
   text-align: center;
   cursor: pointer;
   width: 25%;
@@ -443,20 +443,21 @@ border: 10px solid rgba(0, 0, 0, 0.61);box-shadow: 20px 20px 50px rgba(0, 0, 0, 
   background: linear-gradient(rgb(149, 231, 149),rgb(129,221,129)rgb(113,231,135))
 }
 .contact .contant{max-width: 800px;text-align: center;}
-.contact .contant h2{font-size: 37px;font-weight: 800;color: #fff;background: linear-gradient(rgb(128, 26, 26),rgb(189, 5, 5),rgb(216, 5, 5));border-radius: 90px;}
-.contact .contant p{font-weight: 500;color: rgb(0, 0, 0);margin-top: 10px;}
+.contact .contant h2{font-size: 37px;font-weight: 800;color: #fff;background: rgb(1, 1, 41);border-radius: 90px;}
+.contact .contant p{font-weight: 500;color: rgb(255, 255, 255);margin-top: 10px;padding-left:8px;}
 .containor{width: 100%;display: flex;justify-content: center;align-items: center;margin-top: 30px;}
 .containor .contactInfo{width: 50%;display: flex;flex-direction: column;}
 .containor .contactInfo .bag{position: relative;padding: 20px 0;display: flex;}
 .containor .contactInfo .bag .icen{min-width: 60px;height: 60px;background: #fff;display: flex;justify-content: center;align-items: center;border-radius: 50%;font-size: 22px;}
 .containor .contactInfo .bag .text{display: flex;margin-left: 20px;font-size: 16px;color: #fff;flex-direction: column;font-weight: 300;}
-.containor .contactInfo .bag .text h3{font-weight: 500;color: #d41900;}
-.contactform{width: 40%;padding: 10px 10px 0px 10px;background:rgba(255, 5, 5, 0.11);}
-.contactform h2{font-size: 30px;color: rgb(126, 5, 5);font-weight: 500;}
+.containor .contactInfo .bag .icen a{text-decoration: none;color: #262424;}
+.containor .contactInfo .bag .text h3{font-weight: 500;color: #000000;}
+.contactform{width: 40%;padding: 10px 10px 0px 10px;background:rgba(21, 255, 0, 0.11);}
+.contactform h2{font-size: 30px;color: #fff;font-weight: 500;}
 .contactform .inputBox{position: relative;width: 100%;margin-top: 10px;}
 .contactform .inputBox input,.contactform .inputBox textarea{width: 100%;padding: 5px 0;font-size: 16px;margin: 10px 0;border: none;border-bottom: 2px solid #333;outline: none;resize: none;background-color: rgba(255, 255, 255, 0);}
-.contactform .inputBox span{position: absolute;left: 0;padding: 5px 0;font-size: 16px;margin: 10px 0;pointer-events: none;transition: 0.5s;color: rgb(21, 107, 0);}
-.contactform .inputBox input:focus ~ span,.contactform .inputBox input:valid ~ span,.contactform .inputBox textarea:focus ~ span,.contactform .inputBox textarea:valid ~ span{color: #960000;font-size: 12px;transform: translateY(-20px);}
+.contactform .inputBox span{position: absolute;left: 0;padding: 5px 0;font-size: 16px;margin: 10px 0;pointer-events: none;transition: 0.5s;color:  rgb(0, 20, 77);}
+.contactform .inputBox input:focus ~ span,.contactform .inputBox input:valid ~ span,.contactform .inputBox textarea:focus ~ span,.contactform .inputBox textarea:valid ~ span{color: #4811c9;font-size: 12px;transform: translateY(-20px);}
 .contactform .inputBox input[type="submit"]{width: 100px;background:  #00490a7e;color: #fff;border: none;cursor:pointer;padding: 10px;font-size: 18px;font-weight: 600;letter-spacing: 1px;}
 .contactform .inputBox input[type="submit"]:hover{background-color: #4ef33870;color: #000;}
 @media (max-width:991px){
