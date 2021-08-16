@@ -301,7 +301,7 @@ nav input{
   border-radius: 10px;}
   .flickity-enabled {
     position: relative;
-    top: 180px;
+    top: 200px;
     height: 85vh;
 }  
 .carousel-cell img{width: 100%;height: 85vh;}
