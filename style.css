@@ -289,7 +289,7 @@ nav input{
   border-radius:5px; 
   z-index: 1;
 }
-.body-text a, .body-text h1{font-weight: 900;letter-spacing: 1.2px;font-size: 2em;text-decoration: none;color:rgba(19, 75, 2, 0.767);z-index: 1;transition: all 0.3s}
+.body-text a, .body-text h1{font-weight: 900;letter-spacing: 1.2px;font-size: 1.5em;text-decoration: none;color:rgba(19, 75, 2, 0.767);z-index: 1;transition: all 0.3s}
 .body-text a:hover{color: rgba(19, 75, 2, 0.396);cursor:pointer;}
 .carousel {
   background: #EEE;
